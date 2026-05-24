@@ -809,7 +809,7 @@ function toggleSection(id){
 <script>
 if('serviceWorker' in navigator){
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js')
+    navigator.serviceWorker.register('/Life-Project/service-worker.js')
       .then(() => console.log('SW registered'))
       .catch(e => console.log('SW error', e));
   });
